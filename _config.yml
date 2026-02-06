@@ -211,7 +211,6 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  defaults:
   # _posts
   - scope:
       path: ""
@@ -288,6 +287,7 @@ defaults:
       toc: false
       classes: wide
       share: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
