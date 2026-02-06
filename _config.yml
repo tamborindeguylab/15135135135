@@ -211,26 +211,33 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  defaults:
   # _posts
- - scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    author_profile: false
-    sidebar: false
-    toc: false
-    classes: wide
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
   # _pages
   - scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: false
-    sidebar: false
-    toc: false
-    classes: wide
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
+
   # _teaching
   - scope:
       path: ""
@@ -238,18 +245,25 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
       share: true
       comments: true
+
   # _publications
   - scope:
-    path: ""
-    type: publications
-  values:
-    layout: single
-    author_profile: false
-    sidebar: false
-    toc: false
-    classes: wide
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
+      share: true
+      comments: true
+
   # _portfolio
   - scope:
       path: ""
@@ -257,8 +271,12 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
       share: true
       comment: true
+
   # _talks
   - scope:
       path: ""
@@ -266,9 +284,10 @@ defaults:
     values:
       layout: talk
       author_profile: false
+      sidebar: false
+      toc: false
+      classes: wide
       share: true
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
