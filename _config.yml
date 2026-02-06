@@ -18,33 +18,7 @@ url                      : https://tamborindeguylab.github.io # The base hostnam
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tamborindeguylab/tamborindeguylab.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Tamborindeguy Lab"
-  pronouns         : # example: "she/her"  
-  bio              : "Research on insect–microbe–plant interactions and vector-borne plant pathogens."
-  location         : "College Station, TX, USA"
-  employer         : "Texas A&M University"
-  uri              : # URL
-  email            : "ctamborindeguy@tamu.edu" 
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=QN6GRscAAAAJ&hl=en"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
 
 
   # Repositories and software development
