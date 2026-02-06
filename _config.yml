@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Tamborindeguy Lab"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : "Tamborindeguy Lab"
 description              : &description "Insect–microbe–plant interactions and vector-borne plant pathogens"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://tamborindeguylab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
